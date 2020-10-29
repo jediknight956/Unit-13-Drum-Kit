@@ -1,8 +1,10 @@
 
+document.querySelectorAll(".drum").forEach(element => {
+    element.addEventListener("click", function(){
+        this.style.color = 'white'
+    })
+});
 
 
-document.querySelector("button").addEventListener("click", handleClick)
-
-function handleClick(){
-    alert("I got clicked!")
-}
+//let audio = new Audio('sounds/tom-1.mp3')
+//        audio.play()
